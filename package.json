@@ -1,0 +1,46 @@
+{
+  "name": "imageprocessor",
+  "description": "A command line tool to ceasily crop and resize images",
+  "version": "1.0.0",
+  "homepage": "https://github.com/brightsnowman/imageprocessor",
+  "author": {
+    "name": "Alexander Kohout",
+    "email": "alexanderkohout@gmail.com",
+    "url": "alexanderkohout.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brightsnowman/imageprocessor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brightsnowman/imageprocessor/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brightsnowman/imageprocessor/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/imageprocessor",
+  "engines": {
+    "node": ">=0.10.7"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "optimist": ">=0.6.0",
+    "gm": ">=1.13.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "calc" : "lib/imageprocessor.js"
+  }
+}
