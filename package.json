@@ -1,8 +1,8 @@
 {
-  "name": "imageprocessor",
-  "description": "A command line tool to ceasily crop and resize images",
+  "name": "image-batch-resizer",
+  "description": "A command line tool to resize images to a number of different sizes",
   "version": "1.0.0",
-  "homepage": "https://github.com/brightsnowman/imageprocessor",
+  "homepage": "https://github.com/brightsnowman/image-batch-resizer",
   "author": {
     "name": "Alexander Kohout",
     "email": "alexanderkohout@gmail.com",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/brightsnowman/imageprocessor.git"
+    "url": "git://github.com/brightsnowman/image-batch-resizer.git"
   },
   "bugs": {
-    "url": "https://github.com/brightsnowman/imageprocessor/issues"
+    "url": "https://github.com/brightsnowman/image-batch-resizer/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/brightsnowman/imageprocessor/blob/master/LICENSE-MIT"
+      "url": "https://github.com/brightsnowman/image-batch-resizer/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/imageprocessor",
+  "main": "lib/image-batch-resizer",
   "engines": {
     "node": ">=0.10.7"
   },
@@ -42,6 +42,6 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "calc" : "lib/imageprocessor.js"
+    "image-batch-resizer" : "lib/image-batch-resizer.js"
   }
 }
