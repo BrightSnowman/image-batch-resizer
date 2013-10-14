@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "optimist": ">=0.6.0",
-    "gm": ">=1.13.1"
+    "gm": ">=1.13.1",
+    "rimraf": ">=2.2.2"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
