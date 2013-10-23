@@ -1,12 +1,11 @@
 {
   "name": "image-batch-resizer",
-  "description": "A command line tool to resize images to a number of different sizes",
+  "description": "A command line tool to easily resize a bunch of images to a bunch of different sizes.",
   "version": "1.0.0",
   "homepage": "https://github.com/brightsnowman/image-batch-resizer",
   "author": {
     "name": "Alexander Kohout",
-    "email": "alexanderkohout@gmail.com",
-    "url": "alexanderkohout.de"
+    "email": "a.kohout@brightsnowman.com"
   },
   "repository": {
     "type": "git",
@@ -40,7 +39,7 @@
     "grunt": "~0.4.1",
     "nodeunit": ">=0.8.1"
   },
-  "keywords": [],
+  "keywords": ["image", "image processing", "gm", "thumbnail", "crop"],
   "preferGlobal": "true",
   "bin": {
     "image-batch-resizer" : "lib/image-batch-resizer.js"
