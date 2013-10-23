@@ -1,4 +1,4 @@
-# Image-Batch-Resizer
+# imageresizer
 
 A command line tool to easily resize a bunch of images to a bunch of different sizes.
 
@@ -13,7 +13,7 @@ After that, you can install the tool by simply running `npm install image-batch-
 
 You can run it using the command line like this:
 ```bash
-image-batch-resizer --input imagesdir1 --input single.jpg --output outputdir --size 200x200 --size 300x300 --size 250x200
+imageresizer --input imagesdir1 --input single.jpg --output outputdir --size 200x200 --size 300x300 --size 250x200
 ```
 
 This example reads in the files in directory imagesdir1 and additionally the file single.jpg. It resizes the input
@@ -50,7 +50,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 Any contribution is welcome, for example:
 
-* Send us Feature Requests or Bug reports or any questions in the [Issues section](https://github.com/BrightSnowman/image-batch-resizer/issues?milestone=&page=1&state=open)
+* Send us Feature Requests or Bug reports or any questions in the [Issues section](https://github.com/BrightSnowman/imageresizer/issues?milestone=&page=1&state=open)
 * Send a Pull Request for an existing Issue and become author of the tool
 * Just write an email (or whatever you prefer) and give us some feedback
 

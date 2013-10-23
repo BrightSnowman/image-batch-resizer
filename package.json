@@ -1,26 +1,26 @@
 {
-  "name": "image-batch-resizer",
+  "name": "imageresizer",
   "description": "A command line tool to easily resize a bunch of images to a bunch of different sizes.",
   "version": "1.0.0",
-  "homepage": "https://github.com/brightsnowman/image-batch-resizer",
+  "homepage": "https://github.com/brightsnowman/imageresizer",
   "author": {
     "name": "Alexander Kohout",
     "email": "a.kohout@brightsnowman.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/brightsnowman/image-batch-resizer.git"
+    "url": "git://github.com/brightsnowman/imageresizer.git"
   },
   "bugs": {
-    "url": "https://github.com/brightsnowman/image-batch-resizer/issues"
+    "url": "https://github.com/brightsnowman/imageresizer/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/brightsnowman/image-batch-resizer/blob/master/LICENSE-MIT"
+      "url": "https://github.com/brightsnowman/imageresizer/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/image-batch-resizer",
+  "main": "lib/imageresizer",
   "engines": {
     "node": ">=0.10.7"
   },
@@ -42,6 +42,6 @@
   "keywords": ["image", "image processing", "gm", "thumbnail", "crop"],
   "preferGlobal": "true",
   "bin": {
-    "image-batch-resizer" : "lib/image-batch-resizer.js"
+    "imageresizer" : "lib/imageresizer.js"
   }
 }
